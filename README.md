@@ -1,5 +1,5 @@
 <h1 align="center">📚 Mi Página Educativa</h1> 
-📚 Bienvenido a [Sistema-Solar], un espacio diseñado para el aprendizaje interactivo y accesible. Nuestra misión es proporcionar contenido educativo de calidad, utilizando herramientas innovadoras que faciliten la     comprensión y el desarrollo de habilidades clave. Aquí encontrarás recursos didácticos, cursos estructurados y material de apoyo para potenciar tu conocimiento de manera dinámica y efectiva. ¡Aprender nunca ha         sido tan fácil y divertido! 🚀
+📚 Bienvenido a "Sistema-Solar", un espacio diseñado para el aprendizaje interactivo y accesible. Nuestra misión es proporcionar contenido educativo de calidad, utilizando herramientas innovadoras que faciliten la     comprensión y el desarrollo de habilidades clave. Aquí encontrarás recursos didácticos, cursos estructurados y material de apoyo para potenciar tu conocimiento de manera dinámica y efectiva. ¡Aprender nunca ha         sido tan fácil y divertido! 🚀
 <br>
 
 <h2 >📸 Capturas de pantalla</h1> 
