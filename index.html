@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <title>Sistema Solar</title>
+
+    <link rel="stylesheet" href="style.css">
+    <!--Cambio de logo pestaña del navegador-->
+    <link rel="shortcut icon" href="images/planeta.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <!--cabecera-->
+    <header class="header">
+        <div class="menu container">
+
+            <a href="#" class="logo"> <img src="images/planeta.png" alt=""></a>
+            <input type="checkbox" id="menu" />
+
+            <!-- Para la parte responsiva la imagen-->
+            <label for="menu">
+                <img src="images/menu.svg" class="menu-icono" alt="">
+            </label>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Planetas</a></li>
+                    <li><a href="#">Estrellas</a></li>
+                    <li><a href="#">Contactos</a></li>
+                </ul>
+            </nav>
+
+            <!--Redes sociales-->
+            <div class="socials-1">
+                <a href="#"><img src="images/r1.svg" alt=""></a>
+                <a href="#"><img src="images/r2.svg" alt=""></a>
+                <a href="#"><img src="images/r3.svg" alt=""></a>
+            </div>
+        </div>
+        <!-- texto de pantalla principal-->
+        <div class="header-content container">
+
+            <div class="header-txt">
+                <h1>Sistema Solar</h1>
+                <p>
+                    Es el conjunto de cuerpos celestes que orbitan alrededor del Sol, incluyendo planetas, lunas, asteroides, cometas y otros objetos espaciales. Se formó hace aproximadamente 4.600 millones de años a partir de una nube de gas y polvo en colapso.
+                </p>
+                <a href="#" class="btn-1">Informacion</a>
+            </div>
+            <div class="header-img">
+                <img src="images/planeta-tierra.png" alt="">
+            </div>
+        </div>
+    </header>
+    <!-- Segunda seccion -->
+    <section class="about">
+
+        <div class="about-content container">
+
+            <img class="ab1" src="images/estrella.png" alt="">
+            <img class="ab2" src="images/estrella.png" alt="">
+            <img class="ab3" src="images/planeta1.png" alt="">
+
+            <div class="about-img">
+                <img src="images/planeta-grande.png" alt="">
+            </div>
+
+            <div class="about-txt">
+                <h2>El planeta más grande</h2>
+
+                <p>
+                    Júpiter es un gigante gaseoso compuesto principalmente de hidrógeno y helio. Tiene una gran mancha roja, que es una tormenta gigante, y al menos 95 lunas conocidas, Su fuerte campo magnético y su densa atmósfera lo convierten en un planeta fascinante para la astronomía. 🪐✨
+                </p>
+                <a href="#" class="btn-2">Informacion</a>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Tercera seccion -->
+    <section class="information">
+        <div class="information-content container">
+            <img class="in1" src="images/estrella.png" alt="">
+            <img class="in2" src="images/estrella.png" alt="">
+            <img class="in3" src="images/galaxia.png" alt="">
+
+            <h2>Planetas del Sistema Solar</h2>
+
+            <p>
+                El Sistema Solar tiene ocho planetas divididos en rocosos y gaseosos. Mercurio es el más pequeño y sin atmósfera, Venus es el más caliente por su efecto invernadero, Tierra es el único con vida conocida, y Marte es el "planeta rojo" con grandes volcanes. Entre los gigantes gaseosos, Júpiter es el más grande con su Gran Mancha Roja, Saturno destaca por sus anillos, Urano gira inclinado y es azul verdoso, mientras que Neptuno es el más lejano, con vientos extremos.
+            </p>
+
+        </div>
+    <!-- Cuarta seccion -->
+    </section>
+    <!-- main => Contenido relevante solo se usa una vez -->
+    <main class="contact container">
+        <div class="contact-table">
+            <!-- -->
+            <span>PLANETAS</span>
+            <h3>INFORMACION</h3>
+            <table class="ingredients">
+
+                <!-- Cabezera -->
+                <tr>
+                    <th>Planetas</th>
+                    <th>Tipo</th>
+                    <th>Nro Lunas</th>
+                </tr>
+
+                <tr>
+                    <th>Mercurio</th>
+                    <th>Rocoso</th>
+                    <th>0</th>
+                </tr>
+
+                <tr>
+                    <th>Venus</th>
+                    <th>Rocoso</th>
+                    <th>0</th>
+                </tr>
+
+                <tr>
+                    <th>Tierra</th>
+                    <th>Rocoso</th>
+                    <th>1</th>
+                </tr>
+
+                <tr>
+                    <th>Marte</th>
+                    <th>Rocoso</th>
+                    <th>2</th>
+                </tr>
+
+                <tr>
+                    <th>Júpiter</th>
+                    <th>Gaseoso</th>
+                    <th>+90</th>
+                </tr>
+
+                <tr>
+                    <th>Saturno</th>
+                    <th>Gaseoso</th>
+                    <th>+80</th>
+                </tr>
+
+                <tr>
+                    <th>Urano</th>
+                    <th>Gaseoso</th>
+                    <th>27</th>
+                </tr>
+
+                <tr>
+                    <th>Neptuno</th>
+                    <th>Gaseoso</th>
+                    <th>14</th>
+                </tr>
+
+            </table>
+        </div>
+        <div class="form-content">
+
+            <h2>Suscribete a nuestras noticias</h2>
+            <!--Consumir una api de correos-->
+            <form action="https://formsubmit.co/marcosdota7@gmail.com" method="POST" />
+                <input class="campo" type="text" name="name" placeholder="Nombre">
+
+                <input class="campo" type="email" name="email" placeholder="Correo Electronico">
+
+                <input class="btn-2" type="submit" value="enviar">
+                <!-- Evitar la opcion de confirmacion de robot-->
+                <input type="hidden" name="next" value="http://127.0.0.1:5500/">
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+
+        </div>
+    </main>
+
+    <!--Pie de pagina -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <div class="link-img">
+                    <img src="images/planeta.png" alt="">
+                    <div class="socials-2">
+                        <a href="#"> <img src="images/r1.svg" alt=""></a>
+                        <a href="#"> <img src="images/r2.svg" alt=""></a>
+                        <a href="#"> <img src="images/r3.svg" alt=""></a>
+
+                    </div>
+                </div>
+                <div class="link">
+                    <h3>lorem</h3>
+                    <ul>
+                        <li><a href="">lorem</a></li>
+                        <li><a href="">lorem</a></li>
+                        <li><a href="">lorem</a></li>
+                    </ul>
+                </div>
+
+                <div class="link">
+                    <h3>lorem</h3>
+                    <ul>
+                        <li><a href="">lorem</a></li>
+                        <li><a href="">lorem</a></li>
+                        <li><a href="">lorem</a></li>
+                    </ul>
+                </div>
+
+                <div class="link">
+                    <h3>lorem</h3>
+                    <ul>
+                        <li><a href="">lorem</a></li>
+                        <li><a href="">lorem</a></li>
+                        <li><a href="">lorem</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    
+    </footer>
+    <!--Derechos de autor -->
+    <div class="footer-copy">
+        <p>&copy; Creado por Mquispep - 2024</p>
+    </div>
+
+</body>
+
+</html>
